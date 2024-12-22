@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6afaef42-8427-43d1-9e05-ebf43c575afc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/sliding_window/find_anagrams.py" afterDir="false" />
+    <list default="true" id="6afaef42-8427-43d1-9e05-ebf43c575afc" name="Changes" comment="find all anagrams in string">
+      <change afterPath="$PROJECT_DIR$/algorithms/trees/binary_trees/level_order_traversal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734682889694</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="find all anagrams in string">
+      <option name="closed" value="true" />
+      <created>1734786441523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734786441523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +138,7 @@
     <MESSAGE value="readme update" />
     <MESSAGE value="shifted binary search algorithm" />
     <MESSAGE value="validate BST algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate BST algorithm" />
+    <MESSAGE value="find all anagrams in string" />
+    <option name="LAST_COMMIT_MESSAGE" value="find all anagrams in string" />
   </component>
 </project>
