@@ -15,7 +15,6 @@ class BST:
         self.left = None
         self.right = None
 
-
     def insert(self, value):
         currentNode = self
         while True:
