@@ -20,4 +20,4 @@ def groupAnagrams(strs: list[str]) -> list[list[str]]:
         else:
             anagramsMap[sortedStr] = [originalStr]
 
-    return anagramsMap.values()
+    return list(anagramsMap.values())
