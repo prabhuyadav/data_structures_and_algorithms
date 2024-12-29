@@ -3,11 +3,11 @@
 """
 Solution - Time O(log(n)) | Space O(1)
 
-- we can do an altered binary search for this question. we wanna fina a range of indices (i.e the first and last position of a target in our sorted array).
+- we can do an altered binary search for this question. we wanna find a range of indices (i.e the first and last position of a target in our sorted array).
 - we can do the searching twice - once to find the first idx, and the other to find the last idx of our target element in the array.
 - during the normal binary search if the middle is not equal to our target - then we can go left or right based on middle value.
 - if the middle is equal to the target, then we have to determine whether it's an extreme of the target or not.
-- this is where having the logic of trying to find the leftmost/rightmost element lends itself useful to us.
+- this is where having the logic of trying to find the leftmost/rightmost element at a time lends itself useful to us.
 - if you are trying to find the left most idx - then check whether middle idx is zero or if middle-1 is not target value and update accordingly.
 - we'll do the same for the rightmost idx deduction as well.
 - return [-1, -1] if the target is not found in the array
