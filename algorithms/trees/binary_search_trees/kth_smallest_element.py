@@ -3,9 +3,9 @@
 """
 Solution - Time O(h+k) | Space O(h)
 
-- we are traverse the left sub-tree first and the right next for every node.
-- during the traversal we keep track of the number of nodes visited and the latest visited node value - which can be used to return later.
-- we need to consider a node visited only if all the left children of that node have been traversed, since we wanna find the kth smallest element.
+- we are going to traverse the left sub-tree first and the right next for every node.
+- during the traversal we track the number of nodes visited and the latest visited node value - which can be used to return the output later.
+- we need to consider a node visited only if all the left children of that node have been traversed, since we wanna find the a kth smallest element in order.
 
 """
 
